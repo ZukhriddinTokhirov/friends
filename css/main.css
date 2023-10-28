@@ -1,0 +1,254 @@
+.btn-primary {
+  color: #ffffff;
+  background-color: #768694;
+  border-color: white;
+}
+
+.header__menu ul {
+  display: flex;
+}
+.header__menu ul li {
+  list-style-type: none;
+}
+.header__menu ul li a {
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  margin-right: 50px;
+  color: red;
+}
+.header__menu ul li a:hover {
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  margin-right: 50px;
+  color: rgb(29, 100, 100);
+  font-weight: 100px;
+  text-decoration: underline;
+}
+.header__input {
+  display: flex;
+  width: 115px;
+  height: 88px;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__input:hover {
+  color: #A4A9B1;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 180%;
+}
+.header__bars {
+  display: none;
+}
+.header__logo img {
+  width: 100%;
+}
+
+.why__card {
+  margin-top: 50px;
+  border: none;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.kluk {
+  margin-left: 140px;
+}
+
+.home-name p {
+  font-size: 20px;
+}
+.home-img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.nash {
+  padding: 30px 30px;
+}
+.nash__img img {
+  position: absolute;
+  width: 500px;
+}
+
+.cards__icon img {
+  background-color: green;
+}
+
+.o {
+  padding: 30px 0;
+}
+.o__name {
+  border: 2px solid #ffffff;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.o__name p {
+  text-align: center;
+  font-size: 20px;
+}
+.o__name:hover {
+  box-shadow: 0px 0px 30px 5px rgba(34, 60, 80, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.h__title {
+  background-color: #e3e3e3;
+}
+.h__title h2 {
+  text-align: center;
+}
+.h__card carda {
+  margin-top: 10px;
+}
+
+.k__img {
+  width: 101%;
+}
+.k__title h3 {
+  color: gray;
+}
+.k__subtitle {
+  margin: 25px 0 10px 0;
+}
+.k__surname {
+  margin: 25px 0 10px 0;
+}
+.k__lastname {
+  padding: 25px 0;
+}
+
+.fa-angle-double-right:before, .fa-angles-right:before {
+  content: "\f101";
+  color: white;
+}
+
+.footer {
+  background-color: white;
+}
+
+@media (max-width: 1600px) {
+  .home__name h1 {
+    font-size: 5.5rem;
+  }
+}
+@media (max-width: 1400px) {
+  .home__name h1 {
+    font-size: 5.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .home__name h1 {
+    font-size: 4.5rem;
+  }
+  .home__img img {
+    width: 500px;
+  }
+  .k {
+    display: none;
+  }
+  .o-name {
+    font-size: 111%;
+  }
+  .header__menu {
+    font-size: 15px;
+  }
+  .footer {
+    background-color: #ffffff;
+  }
+}
+@media (max-width: 1060px) {
+  .home__name h1 {
+    font-size: 4.5rem;
+  }
+  .o-name {
+    font-size: 111%;
+  }
+  .nash {
+    display: none;
+  }
+  .footer {
+    background-color: #ffffff;
+  }
+  .header__adress h6 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 992px) {
+  .home__name h1 {
+    font-size: 4.5rem;
+  }
+  .home__img img {
+    width: 440px;
+  }
+  .o-name {
+    font-size: 111%;
+  }
+  .h__card {
+    display: none;
+  }
+  .nash {
+    display: none;
+  }
+  .footer {
+    background-color: #ffffff;
+  }
+  .header__adress h6 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .home__name h1 {
+    font-size: 4.5rem;
+  }
+  .home__img {
+    display: none;
+  }
+  .o-name {
+    font-size: 111%;
+  }
+  .header__adress {
+    display: none;
+  }
+  .header__btn {
+    display: none;
+  }
+  .header__number {
+    display: none;
+  }
+  .header__img {
+    display: none;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__input {
+    display: none;
+  }
+  .header__bars {
+    display: block;
+  }
+  .header__logo img {
+    width: 200%;
+  }
+  .h {
+    display: none;
+  }
+  .nash__img img {
+    display: none;
+  }
+  .nash__cards .cards__title {
+    font-size: 10px;
+  }
+  .why {
+    display: none;
+  }
+  .footer {
+    background-color: #ffffff;
+  }
+}/*# sourceMappingURL=main.css.map */
